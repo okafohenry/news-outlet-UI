@@ -1,0 +1,143 @@
+html,
+body {
+    font-family: 'Josefin Sans' !important;
+    margin: 0;
+    height: 100%;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+
+main{
+    width: 65%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    box-shadow: 0px 0px 10px 0px #d4d4d4;
+}
+nav{
+    background: transparent;
+    padding: 7px 5px;
+    float: right;
+}
+nav li{
+    display: inline;
+    padding: 5px;
+}
+nav li a{
+    text-decoration: none;
+}
+.fa-facebook-square{
+    color: #3B5998;
+}
+.fa-instagram{
+    color: #FD1D1D; 
+}
+.fa-linkedin-square{
+    color: #0E76A8;
+}
+.fa-twitter-square{
+    color: #1DA1F2;
+}
+
+header{
+    height: 300px;    
+    background-image: linear-gradient(
+        rgba(172, 172, 172, 0.418), 
+        rgba(175, 175, 175, 0.445)
+      ),url("news-img1.jpg");
+    background-repeat: no-repeat;
+    background-size: 900px 300px;
+    border-bottom-left-radius: 70px;
+}
+.page-title{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top: 30%;
+    z-index: 1;
+
+}
+.page-title h1{
+    width: 100px;
+    margin: 0 auto;
+    letter-spacing: .3rem;
+    padding: 5px 10px;
+    font-size: 35px;
+    font-weight: 600;
+    color: #ec2c2c;
+    border: 3px solid #fa0707;
+    border-radius: .4rem;
+}
+.page-title h4{
+    letter-spacing: .1rem;
+    padding: 7px;
+    color: #ec2c2c;
+}
+
+
+/************  SECTION *******************/
+.trendz-container h2{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 30px;
+    text-align: center;
+}
+.grid{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-auto-rows: minmax(125px, auto);
+    gap: 1rem;
+}
+
+.grid-item{ 
+    background-image: linear-gradient(
+        rgba(172, 172, 172, 0.418), 
+        rgba(175, 175, 175, 0.445)
+      ),url("covid-img.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 15px;
+    height: 185px;
+    border-radius: .5rem;
+    box-shadow: 0px 0px 10px 0px #d4d4d4
+}
+
+
+.buttons{
+    width: 70%;
+    margin: 30px auto 0 auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+}
+.buttons button{
+    padding: 10px 20px;
+    border-radius: .3rem;
+    font-family: 'Josefin Sans' !important;
+    border: none;
+}
+
+@media screen and (min-width: 45em) {
+    .grid {
+      grid-template-columns: auto auto auto;
+      grid-gap: 20px;
+    }
+}
+
+@media screen and (max-width: 44em){
+    main{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 390px){
+    .buttons{
+        display: block;
+    }
+    .buttons button{
+        width: 100%;
+        margin-top: 20px;
+    }
+}
