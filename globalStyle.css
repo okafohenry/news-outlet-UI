@@ -93,16 +93,34 @@ header{
 }
 
 .grid-item{ 
-    background-image: linear-gradient(
-        rgba(172, 172, 172, 0.418), 
-        rgba(175, 175, 175, 0.445)
-      ),url("covid-img.jpg");
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
     padding: 15px;
     height: 185px;
     border-radius: .5rem;
-    box-shadow: 0px 0px 10px 0px #d4d4d4
+    box-shadow: 0px 0px 10px 0px #d4d4d4;
+    overflow: hidden;
+}
+.grid-item img{
+    float: left;
+    padding: 5px 10px;
+}
+.grid-item h3{
+    font-size: 13.5px;
+    font-weight: bold;
+    position: relative;
+}
+.txt-container{
+    margin: 0 auto;
+    width: 95%;    
+    text-overflow: ellipsis;
+}
+.grid-item p{
+    font-size: 12.5px;
+    letter-spacing: .3px;
+    line-height: 1rem;
+    padding: 10px 0px;
+}
+.txt{
+    overflow: ellipsis;
 }
 
 
