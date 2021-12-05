@@ -45,7 +45,7 @@ header{
     background-image: linear-gradient(
         rgba(172, 172, 172, 0.418), 
         rgba(175, 175, 175, 0.445)
-      ),url("dumbo-img.jpg");
+      ),url("https://res.cloudinary.com/okafohenrie/image/upload/v1638693702/dumbo-img_appnvy.jpg");
     background-repeat: no-repeat;
     background-size: 900px 300px;
     border-bottom-left-radius: 70px;
