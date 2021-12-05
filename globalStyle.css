@@ -45,7 +45,7 @@ header{
     background-image: linear-gradient(
         rgba(172, 172, 172, 0.418), 
         rgba(175, 175, 175, 0.445)
-      ),url("news-img1.jpg");
+      ),url("dumbo-img.jpg");
     background-repeat: no-repeat;
     background-size: 900px 300px;
     border-bottom-left-radius: 70px;
@@ -99,19 +99,23 @@ header{
     box-shadow: 0px 0px 10px 0px #d4d4d4;
     overflow: hidden;
 }
+
 .grid-item img{
     float: left;
-    padding: 5px 10px;
+    padding: 0px 10px;
 }
 .grid-item h3{
     font-size: 13.5px;
     font-weight: bold;
     position: relative;
 }
+.grid-item a {
+    text-decoration:  none;
+    color: rgb(68, 68, 68);
+}
 .txt-container{
     margin: 0 auto;
-    width: 95%;    
-    text-overflow: ellipsis;
+    width: 95%; 
 }
 .grid-item p{
     font-size: 12.5px;
@@ -119,9 +123,7 @@ header{
     line-height: 1rem;
     padding: 10px 0px;
 }
-.txt{
-    overflow: ellipsis;
-}
+
 
 
 .buttons{
@@ -136,6 +138,9 @@ header{
     border-radius: .3rem;
     font-family: 'Josefin Sans' !important;
     border: none;
+}
+.buttons button:hover{
+    background:rgba(204, 204, 204, 0.418)
 }
 
 @media screen and (min-width: 45em) {
